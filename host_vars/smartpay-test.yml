@@ -1,0 +1,133 @@
+gate:
+  - name: asanpay
+    id: 1
+  - name: atasigorta
+    id: 2
+  - name: azdatacom
+    id: 3
+  - name: azercell
+    id: 4
+  - name: azerigas
+    id: 5
+  - name: azerigaz-v2-egovpay
+    id: 6
+  - name: azeriNet
+    id: 7
+  - name: azeronline
+    id: 8
+  - name: azerpost-topup
+    id: 9
+  - name: azersu
+    id: 10
+  - name: azfibernet
+    id: 11
+  - name: azpul
+    id: 12
+  - name: azsigorta
+    id: 13
+  - name: azsigorta-soap
+    id: 14
+  - name: azsigorta-soap_1846
+    id: 15
+  - name: baki-sigorta
+    id: 16
+  - name: bakupon
+    id: 17
+  - name: baxqazan
+    id: 18
+  - name: beeOnline
+    id: 19
+  - name: belediyye
+    id: 20
+  - name: bes
+    id: 21
+  - name: bline
+    id: 22
+  - name: bluetv
+    id: 23
+  - name: catel
+    id: 24
+  - name: cbar2
+    id: 25
+  - name: cbar-rest
+    id: 26
+  - name: dostnet
+    id: 27
+  - name: enginet
+    id: 28
+  - name: extranet
+    id: 29
+  - name: fin
+    id: 30
+  - name: flexnet
+    id: 31
+  - name: imei
+    id: 32
+  - name: innkart 
+    id: 33
+  - name: ipay
+    id: 34
+  - name: KATV
+    id: 35
+  - name: keeper
+    id: 36
+  - name: kontakthome
+    id: 37
+  - name: kreditevi
+    id: 38
+  - name: linknet
+    id: 39
+  - name: max-service
+    id: 40
+  - name: nahichevan-bank
+    id: 41
+  - name: nahichevan-communal
+    id: 42
+  - name: nahichevan-credit
+    id: 43
+  - name: nahichevan-internet
+    id: 44
+  - name: nakhchivan-sigorta
+    id: 45
+  - name: nakhchivan-smartcard
+    id: 46
+  - name: narhome
+    id: 47
+  - name: naxtel
+    id: 48
+  - name: netpoint
+    id: 49
+  - name: pashabank-postprocessing
+    id: 50
+  - name: paylogic2
+    id: 51
+  - name: phone-fin-verify
+    id: 52
+  - name: qalasigorta
+    id: 53
+  - name: rabita
+    id: 54
+  - name: rahatTelecom
+    id: 55
+  - name: saf-cell
+    id: 56
+  - name: senayesigorta
+    id: 57
+  - name: skylink
+    id: 58
+  - name: sn-telekom
+    id: 59
+  - name: teleport
+    id: 60
+  - name: transeurocom
+    id: 61
+  - name: ttm
+    id: 62
+  - name: ultel
+    id: 63
+
+
+
+numbers:
+  - owner: Tarlan
+    msisdn: 514007899

@@ -1,0 +1,8 @@
+
+- name: "Executing timeout check on gates"
+  hosts: smartpay-prod
+  tasks:
+    - include_tasks: "notify-tasks.yml"
+      loop: "{{ gate }}"
+
+

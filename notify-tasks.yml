@@ -1,0 +1,32 @@
+
+- name: "Tail log files"
+  shell: tail /home/gates/log/gate/{{ item.name }}/{{ item.name }}.log --lines 45 | grep TimeoutException -q ; echo $?
+  become: yes
+  register: output
+
+- name: "debug"
+  debug:
+    var: output.stdout
+
+- name: "Create template XML for request"
+  template:
+    src: templates/globalSms.j2
+    dest: /home/ansible/globalSmsTo{{ numbers.owner  }}.xml
+    owner: ansible
+    group: ansible
+    mode: '0644'
+  loop: "{{ numbers }}"
+  loop_control:
+    loop_var: numbers
+  when: output.stdout=="0"
+
+- name: "Executing script"
+  script: scripts/globalSms.sh {{ numbers.owner }} 
+  loop: "{{ numbers }}"
+  loop_control:
+    loop_var: numbers
+  when: output.stdout=="0"
+
+
+
+

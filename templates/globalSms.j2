@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:e="https://www.e-gov.az">
+   <soap:Header/>
+   <soap:Body>
+      <e:SendSms>
+         <e:Authentication>   
+            <e:RequestName>mhmGlobal</e:RequestName>   
+            <e:RequestPassword>cmQHbbMukxhbE5sUCFmg</e:RequestPassword>   
+            <e:RequestSmsKey>XAUwTuRvC4jWPXAUwTuRv</e:RequestSmsKey>
+         </e:Authentication>
+         <e:Information>
+            <e:PhoneNumber>{{ numbers.msisdn }}</e:PhoneNumber>   
+            <e:Messages>{{ item.name }} gate id: {{ item.id }} receiving Timeout.Exception</e:Messages>   
+            <e:SenderDate></e:SenderDate>   
+            <e:SenderTime></e:SenderTime>
+         </e:Information>
+      </e:SendSms>
+   </soap:Body>
+</soap:Envelope>
